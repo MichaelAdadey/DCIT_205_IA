@@ -1,0 +1,169 @@
+header,
+footer {
+    display: block;
+}
+
+
+head, a {
+    height: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+head div img  { 
+    height: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+ 
+/*########## Nav Bar ###############*/
+nav {
+    width: 100%;
+    margin: 0;
+ }
+
+nav ul {
+    background-color: #d8d8d8;
+    overflow: hidden;
+    margin: 0;
+}
+ ul.topnav li {
+    list-style: none;
+    float: left;
+ }
+
+ ul.topnav li a {
+    display: block;
+    min-height: 16px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    text-align: center;
+    padding: 3;
+    text-transform: uppercase;
+    color: #666;
+ }
+
+ ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: white;
+ }
+
+ ul.topnav li.dropdownIcon {
+    display: none;
+ }
+
+ /* ########## Mobile ############ */
+ @media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+
+    }
+ }
+
+
+ body {
+    background-image: url(ug\ back.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+
+
+ .departmentimg {
+    height:400px;
+    display: block;
+    margin: auto;
+    padding: 40px;
+ }
+
+ .article {
+    text-align: center;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+ }
+
+
+ footer {
+    width:100%;
+}
+
+.custom-table {
+    width: 100%;
+    height: 600px;
+    border-collapse: collapse;
+    background-color: rgb(27, 27, 77);
+    color: #fff;
+
+}
+    
+
+.custom-table td {
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: left;
+    border: 0px;
+    padding-top: 0px;
+
+}
+
+.column1 {
+    padding: 2px;
+    
+}
+
+.custom-table td ul li{
+    list-style: none;
+    color: #fff;
+    padding: 2px;
+}
+
+.custom-table td ul a li:hover {
+    color:#988453;
+}
+
+.custom-table h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-table td input {
+    height: 35px;
+    width: 230px;
+}
+
+.custom-table td p {
+    color: grey;
+    
+}
+
+.custom-table td a {
+    text-decoration: none;
+}

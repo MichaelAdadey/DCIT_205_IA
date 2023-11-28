@@ -15,7 +15,7 @@ head {
 head div img  { 
     height: 10px;
     display: block;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
  
@@ -37,9 +37,12 @@ nav ul {
 
  ul.topnav li a {
     display: block;
-    min-height: 12px;
+    min-height: 16px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
     text-align: center;
-    padding: 5;
+    padding: 3;
     text-transform: uppercase;
     color: #666;
  }

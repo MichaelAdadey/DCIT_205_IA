@@ -1,0 +1,282 @@
+html, a {
+    text-decoration: none;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+header,
+body,
+footer {
+    display: block;
+}
+
+
+/* header */
+head {
+    height: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+head div img  { 
+    height: 10px;
+    margin-left: 10px;
+    display: block;
+
+}
+
+ 
+/*########## Nav Bar ###############*/
+nav {
+    width: 100%;
+    margin: 0;
+ }
+
+nav ul {
+    background-color: #d8d8d8;
+    overflow: hidden;
+    margin: 0;
+}
+ ul.topnav li {
+    list-style: none;
+    float: left;
+ }
+
+ ul.topnav li a {
+    display: block;
+    min-height: 16px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-align: center;
+    padding: 3;
+    text-transform: uppercase;
+    color: #666;
+    text-decoration: none;
+ }
+
+ ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: white;
+ }
+
+ ul.topnav li.dropdownIcon {
+    display: none;
+ }
+
+ /* ########## Mobile ############ */
+ @media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+        text-decoration: none;
+
+    }
+ }
+
+
+ /* body content */
+
+
+
+body{
+    
+}
+
+.firstContainer {
+    width: 100%;
+    height: 300px;
+    background-color: pink;
+    display: block;
+    margin: auto;
+    background-image: url(about-img2.jpg);
+    object-fit: cover;
+}
+
+.firstContainer .content {
+    text-align: center;
+    padding: auto;
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 0px;
+    
+}
+
+
+.firstContainer .content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 36px;
+
+}
+
+.firstContainer .content p a {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.firstContainer .content p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 27, 77);
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.welcomeText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    
+}
+
+hr {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: rgb(210, 185, 59)
+}
+
+ .gettoknowus {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.getText {
+    text-align: left;
+    color: grey;
+}
+
+
+
+/* footer */
+
+.styled-table {
+    width: 100%; /* Set the width of the table */
+    margin: 10px auto; /* Center the table on the page */
+    border-collapse: collapse;
+}
+
+.styled-table td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #fff; /* Set border color to white */
+    background-color: #fff; /* Set background color to grey */
+    color: #fff; /* Set text color to white */
+}
+
+.styled-table td img {
+    height: 100%;
+    width: 600px;
+}
+
+
+.styled-table td {
+    text-align: left;
+    color: grey;
+    font-size: 14px;
+    text-wrap: center;
+
+}
+
+.styled-table td .head {
+    color:rgb(27, 27, 77);
+    font-size: 30px;
+    text-align: left;
+    
+}
+
+.styled-table td video {
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+footer {
+    width:100%;
+}
+
+.custom-table {
+    width: 100%;
+    height: 600px;
+    border-collapse: collapse;
+    background-color: rgb(27, 27, 77);
+    color: #fff;
+
+}
+    
+
+.custom-table td {
+    border: 1px solid #fff;
+    padding: 20px;
+    text-align: left;
+    border: 0px;
+    padding-top: 0px;
+
+}
+
+.column1 {
+    padding: 2px;
+    
+}
+
+.custom-table td ul li{
+    list-style: none;
+    color: #fff;
+    padding: 2px;
+}
+
+.custom-table td ul a li:hover {
+    color:#988453;
+}
+
+.custom-table h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-table td input {
+    height: 35px;
+    width: 230px;
+}
+
+.custom-table td p {
+    color: grey;
+    
+}
